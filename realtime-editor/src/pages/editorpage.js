@@ -27,16 +27,19 @@ const Editorpage = () => {
                           username={client.username} 
                         />
                       ))}
-                      
-                    </div>
+                  </div>
             </div>
-            <button className='btn copyBtn'>Copy Room Code</button>
-            <button className='btn leaveBtn'>Leave Room</button>
+            <button className='btn copyBtn'>
+              Copy Room Code
+            </button>
+            <button className='btn leaveBtn'>
+              Leave Room
+            </button>
+            </div>
             <div className="editorWrap">
               <Editor />
             </div>
         </div>
-      </div>
     );
 };
 
